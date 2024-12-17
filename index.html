@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        .menu-items .item {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .menu-items .item:hover {
+            transform: scale(1.05);
+        }
+
+        .hero {
+            color: #fff;
+            padding: 6rem 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Cozy<span>Café</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+                <div class="hero" id="home">
+    <h1>Welcome to Cozy Café</h1>
+    <p>Your perfect cup of coffee, served fresh every day.</p>
+    <i class="fas fa-coffee coffee-icon"></i>
+    <a href="#menu" class="btn">View Our Menu</a>
+</div>
+
+    </header>
+
+    <!-- Abt Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Cozy Café, we pride ourselves on serving high-quality coffee and freshly baked pastries in a warm and welcoming environment. Perfect for working, relaxing, or catching up with friends.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+                <div class="item">
+                    <h3>Espresso</h3>
+                    <p>Rich, full-bodied coffee shot.</p>
+                </div>
+                <div class="item">
+                    <h3>Latte</h3>
+                    <p>Smooth espresso with steamed milk.</p>
+                </div>
+                <div class="item">
+                    <h3>Croissants</h3>
+                    <p>Freshly baked buttery goodness.</p>
+                </div>
+                <div class="item">
+                    <h3>Cappuccino</h3>
+                    <p>Espresso with a rich foam layer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Visit us or reach out to us for reservations.</p>
+            <div class="contact-info">
+                <p><strong>Address:</strong> 123 Coffee Street, Bean City</p>
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Email:</strong> contact@cozycafe.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cozy Café. All rights reserved.</p>
+    </footer>
+</body>
+</html>
